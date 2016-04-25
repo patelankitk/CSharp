@@ -1,0 +1,5 @@
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS2\DayOneDS2\bin\Debug\DayOneDS2.exe.config
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS2\DayOneDS2\bin\Debug\DayOneDS2.exe
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS2\DayOneDS2\bin\Debug\DayOneDS2.pdb
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS2\DayOneDS2\obj\Debug\DayOneDS2.exe
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS2\DayOneDS2\obj\Debug\DayOneDS2.pdb
