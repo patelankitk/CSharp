@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\bin\Debug\BookList.exe.config
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\bin\Debug\BookList.exe
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\bin\Debug\BookList.pdb
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\obj\Debug\BookList.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\obj\Debug\BookList.exe
+C:\Users\student\Documents\GitHub\CSharp\BookList\BookList\obj\Debug\BookList.pdb

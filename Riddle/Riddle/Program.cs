@@ -12,7 +12,6 @@ namespace Riddle
         {
             string riddle1;
             string riddle2;
-            string toContinue;
             int guess = 0;
             int score = 0;
             Console.WriteLine("Riddle Game.\n\n\n");
@@ -23,37 +22,44 @@ namespace Riddle
                     riddle1 = Console.ReadLine().ToLower();
                     if (riddle1 == "clock")
                     {
-                        Console.WriteLine("\nThats correct.");
-                    score ++;
-                    guess = 0;
+                        guess = 0;
+                        Console.WriteLine("\nThats correct.\n");
+                        score++;
                     }
+    
                     else
                     {
                         Console.WriteLine("\nSorry Wrong Answer, please guess again.\n");
-                    guess++;
-                        
+                        guess++;
                     }
-                    
+                } while (riddle1 != "clock" && guess !=3);
 
-            } while (riddle1 != "clock" && guess !=2);
+            guess = 0;
             
                 do
                 {
                     Console.WriteLine("What has a thumb and four fingers but is not alive?\n ");
                     riddle2 = Console.ReadLine().ToLower();
+
                     if (riddle2 == "glove")
                     {
-                        Console.WriteLine("\nThats correct.");
+                        guess = 0;
+                        Console.WriteLine("\nThats correct.\n");
+                        score++;
+                        
                     }
                     else
                     {
+                        
                         Console.WriteLine("\nSorry Wrong Answer, please guess again.");
+                        guess++;
+                        
                     }
-                    Console.WriteLine("Do you want to continue..? Y or N");
-                    toContinue = Console.ReadLine().ToLower();
-            } while (riddle2 != "glove" && toContinue!="n");
-
-            
+                  
+                 } while (riddle2 != "glove" && guess!=3);
+            Console.WriteLine("Your Score is :- {0}", score);
+            guess = 0;
+            score = 0;
 
         }
     }
