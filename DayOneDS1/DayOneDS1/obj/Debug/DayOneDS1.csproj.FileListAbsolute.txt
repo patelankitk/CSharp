@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\bin\Debug\DayOneDS1.exe.config
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\bin\Debug\DayOneDS1.exe
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\bin\Debug\DayOneDS1.pdb
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\obj\Debug\DayOneDS1.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\obj\Debug\DayOneDS1.exe
+C:\Users\student\Documents\GitHub\CSharp\DayOneDS1\DayOneDS1\obj\Debug\DayOneDS1.pdb
