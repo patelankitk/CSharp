@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\bin\Debug\ErrorHandlingFile.exe.config
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\bin\Debug\ErrorHandlingFile.exe
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\bin\Debug\ErrorHandlingFile.pdb
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\obj\Debug\ErrorHandlingFile.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\obj\Debug\ErrorHandlingFile.exe
+C:\Users\student\Documents\GitHub\CSharp\ErrorHandlingFile\ErrorHandlingFile\obj\Debug\ErrorHandlingFile.pdb
