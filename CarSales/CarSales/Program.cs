@@ -11,29 +11,47 @@ namespace CarSales
     {
         static void Main(string[] args)
         {
-            //Car car1 = new Car { make = "audi", model = "A4", milage = 15000, salePrice = 20000 };
-            //Car.totalNumberOfCars++;
-            //Car car2 = new Car { make = "BMW", model = "X5", milage = 20000, salePrice = 24000 };
-            //Car.totalNumberOfCars++;
-            //Car car3 = new Car { make = "Range Rover", model = "Autobiography", milage = 15000, salePrice = 35000 };
-            //Car.totalNumberOfCars++;
+            List<Car> CarList = new List<Car>();
 
-            //Console.WriteLine("Total Number of car in stock is {0}.",Car.totalNumberOfCars);
-            //Console.WriteLine("Make = {0}, Model = {1}, Milage = {2}, Sale Prize = £{3}", car1.make, car1.model, car1.milage, car1.salePrice);
-            //Console.WriteLine("Make = {0}, Model = {1}, Milage = {2}, Sale Prize = £{3}", car2.make, car2.model, car1.milage, car2.salePrice);
-            //Console.WriteLine("Make = {0}, Model = {1}, Milage = {2}, Sale Prize = £{3}", car3.make, car3.model, car1.milage, car3.salePrice);
+
+            Car car1 = new Car();
+            car1.AddCar("Audi","A4",15000,16000);
+            CarList.Add(car1);
+
+            Car car2 = new Car();
+            car2.AddCar("BMW", "X5", 20000, 23000);
+            CarList.Add(car2);
+
+            Car car3 = new Car();
+            car3.AddCar("Range Rover", "Autobiograpy", 35000, 15000);
+            CarList.Add(car3);
+
             Car car4 = new Car();
             car4.AddCar("Tesla", "S", 35000, 100);
+            CarList.Add(car4);
+
             Car car5 = new Car();
             car5.AddCar("Bentley", "Continental", 180000, 10000);
+            CarList.Add(car5);
+
             Car car6 = new Car();
             car6.AddCar("Infinity", "Q30", 30000, 8000);
+            CarList.Add(car6);
+
+
+            car1.ListCar();
+            car2.ListCar();
+            car3.ListCar();
             car4.ListCar();
             car5.ListCar();
             car6.ListCar();
+
             Console.WriteLine("Total Number of car in stock is {0}.", Car.totalNumberOfCars);
-            car6.CarSold(29500, true);
-            Console.WriteLine("Total Number of car in stock is {0}.", Car.totalNumberOfCars);
+
+            Car.ListAllCar(CarList);
+
+            //car6.CarSold(29500, true);
+            //Console.WriteLine("Total Number of car in stock is {0}.", Car.totalNumberOfCars);
 
 
 

@@ -36,5 +36,13 @@ namespace CarSales
             Console.WriteLine("Details for the car sold is \n 1.Make -{0} \n 2.Model -{1}\n 3.Price -{2}\n 4.Milage -{3}", make, model, salePrice, milage);
             totalNumberOfCars--;
         }
+
+        public static void ListAllCar(List<Car> CarList)
+        {
+            foreach (Car item in CarList)
+            {
+                Console.WriteLine("The Car Details are as follows:- {0},{1},{2},{3}",item.make,item.model,item.salePrice,item.milage);
+            }
+        }
     }
 }
