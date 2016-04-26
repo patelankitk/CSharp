@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\bin\Debug\Dictionaries.exe.config
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\bin\Debug\Dictionaries.exe
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\bin\Debug\Dictionaries.pdb
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\obj\Debug\Dictionaries.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\obj\Debug\Dictionaries.exe
+C:\Users\student\Documents\GitHub\CSharp\Dictionaries\Dictionaries\obj\Debug\Dictionaries.pdb
