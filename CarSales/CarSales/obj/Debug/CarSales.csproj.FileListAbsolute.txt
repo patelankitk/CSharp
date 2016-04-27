@@ -4,3 +4,9 @@ C:\Users\student\Documents\GitHub\CSharp\CarSales\CarSales\bin\Debug\CarSales.pd
 C:\Users\student\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.csprojResolveAssemblyReference.cache
 C:\Users\student\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.exe
 C:\Users\student\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\bin\Debug\CarSales.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\obj\Debug\CarSales.csprojResolveAssemblyReference.cache
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\bin\Debug\CarSales.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\CarSales\CarSales\bin\Debug\CarSales.pdb
