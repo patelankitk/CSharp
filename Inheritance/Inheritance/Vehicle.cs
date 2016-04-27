@@ -8,6 +8,7 @@ namespace Inheritance
 {
     class Vehicle
     {
+        public string type;
         public string make;
         public string model;
         public int salePrice;
@@ -23,8 +24,9 @@ namespace Inheritance
 
 
         // Method to add new vehicle to the stock  using input parameters //
-        public void AddVehicle(string make, string model, int Price)
+        public void AddVehicle(string type,string make, string model, int Price)
         {
+            this.type = type;
             this.make = make;
             this.model = model;
             this.salePrice = Price;
@@ -41,18 +43,19 @@ namespace Inheritance
         {
             this.vehicleIsSold = sold;
             this.salePrice = price;
-            Console.WriteLine("Details for the vehicle sold is \n\n1.Make -{0} Model-{1} Price -{2}\n", make, model, salePrice);
+            Console.WriteLine("Details for the vehicle sold is \n\n1.Make -{0} Model-{1} Price -{2} Vehicle Type -{3}.\n", make, model, salePrice,type);
             // decrementing the total number of vehicle as its sold now //
             totalNumberOfVehicle--;
         }
 
         //Method to List all car with their details and also to display if they are sold or not //
-        public static void ListAllVehicle(List<Vehicle> VehicleList)
+        public static void DisplayAllVehicle(List<Vehicle> VehicleList)
         {
             // foreach loop to loop through Car List and displaying the details of the car //
             foreach (Vehicle item in VehicleList)
             {
-                Console.WriteLine("The Vehicle Details are as follows:- {0},{1},{2}", item.make, item.model, item.salePrice);
+                Console.WriteLine("--------------------------------------------------------------------------------");
+                Console.WriteLine("The Vehicle Details are as follows:- {0},{1},{2},{3}", item.make, item.model, item.salePrice,item.type);
                 if (!item.vehicleIsSold)
                 {
                     Console.WriteLine("Still available for sale.");
@@ -61,6 +64,8 @@ namespace Inheritance
                 {
                     Console.WriteLine("Sorry this Vehicle is sold out.");
                 }
+
+                Console.WriteLine("--------------------------------------------------------------------------------");
             }
         }
 
