@@ -27,5 +27,13 @@ namespace Inheritance
             //decrement total bike //
             totalNumberOfBike--;
         }
+
+        public override void NoOfWheels()
+        {
+            wheels=2;
+            Console.WriteLine("Motorcycle has got:-{0} wheels.", wheels);
+        }
     }
+
+    
 }

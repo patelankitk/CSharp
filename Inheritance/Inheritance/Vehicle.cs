@@ -13,6 +13,8 @@ namespace Inheritance
         public string model;
         public int salePrice;
 
+        public int wheels;
+
 
         public static int totalNumberOfVehicle;
 
@@ -109,8 +111,13 @@ namespace Inheritance
 
             //    //displaying the stock value calculated to user //
             Console.WriteLine("\nThe stock value is £{0}.", stockValue);
+        }
+
+        public virtual void NoOfWheels()
+        {
 
 
+            Console.WriteLine("Vehicle has got:-{0} wheels.",wheels);
         }
     }
 }
