@@ -22,6 +22,8 @@ namespace Polymorphism
 
             Triangle Triangle1 = new Triangle();
             Triangle1.Draw();
+
+            
         }
     }
 
@@ -43,7 +45,7 @@ namespace Polymorphism
 
     class Triangle : Polygon
     {
-        public override void Draw()
+        public new void Draw()
         {
             Console.WriteLine("Drawing a Triangle.");
         }

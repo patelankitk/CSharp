@@ -35,7 +35,7 @@ namespace Polymorphism1
 
     class Car : Vehicle
     {
-        public override void wheels()
+        public new void wheels()
         {
             Console.WriteLine("The Car has 4 Wheels.");
         }
@@ -43,7 +43,7 @@ namespace Polymorphism1
 
     class Motorcycle : Vehicle
     {
-        public override void wheels()
+        public  override void wheels()
         {
             Console.WriteLine("The Motorcycle has 2 Wheels.");
         }
