@@ -32,7 +32,7 @@ namespace WindowsFormDemo1
             string month = dateTimePicker1.Value.ToString("MMMM");
 
 
-            LabelMessage.Text = "Hello {0} " + name + ", you will be "+(1+years)+ " year old on "+day+" "+month+".";
+            LabelMessage.Text = string.Format("Hello {0} you will be {1} on {2} {3} ", name,(years+1),day,month);
             
         }
 
