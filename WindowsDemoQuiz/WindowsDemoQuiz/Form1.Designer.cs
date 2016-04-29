@@ -271,7 +271,6 @@
             // 
             // radioButtonQ3A1
             // 
-            this.radioButtonQ3A1.AutoCheck = false;
             this.radioButtonQ3A1.AutoSize = true;
             this.radioButtonQ3A1.CausesValidation = false;
             this.radioButtonQ3A1.Cursor = System.Windows.Forms.Cursors.Default;
@@ -279,7 +278,6 @@
             this.radioButtonQ3A1.Name = "radioButtonQ3A1";
             this.radioButtonQ3A1.Size = new System.Drawing.Size(57, 17);
             this.radioButtonQ3A1.TabIndex = 0;
-            this.radioButtonQ3A1.TabStop = true;
             this.radioButtonQ3A1.Text = "Mouse";
             this.radioButtonQ3A1.UseVisualStyleBackColor = true;
             this.radioButtonQ3A1.CheckedChanged += new System.EventHandler(this.radioButtonQ3A1_CheckedChanged);
