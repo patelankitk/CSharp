@@ -72,6 +72,13 @@ namespace Inheritance
             //displaying total number of bikes //
             Console.WriteLine("Motorcycle in Stock is {0}.\n", Motorcycle.totalNumberOfBike);
 
+            Vehicle v1 = new Motorcycle();
+            Vehicle v2 = new Car();
+            Vehicle v3 = new Vehicle();
+
+            v1.NoOfWheels();
+            v2.NoOfWheels();
+            v3.NoOfWheels();
 
 
 

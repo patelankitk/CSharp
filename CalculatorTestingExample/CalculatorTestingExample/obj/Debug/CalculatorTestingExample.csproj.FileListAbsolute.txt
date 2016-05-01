@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\bin\Debug\CalculatorTestingExample.exe.config
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\bin\Debug\CalculatorTestingExample.exe
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\bin\Debug\CalculatorTestingExample.pdb
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\obj\Debug\CalculatorTestingExample.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\obj\Debug\CalculatorTestingExample.exe
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingExample\obj\Debug\CalculatorTestingExample.pdb

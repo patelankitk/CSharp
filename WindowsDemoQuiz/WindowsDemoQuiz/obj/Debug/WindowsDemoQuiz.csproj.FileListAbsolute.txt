@@ -1,0 +1,9 @@
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\bin\Debug\WindowsDemoQuiz.exe.config
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\bin\Debug\WindowsDemoQuiz.exe
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\bin\Debug\WindowsDemoQuiz.pdb
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.Form1.resources
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.exe
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.pdb
+C:\Users\student\Documents\GitHub\CSharp\WindowsDemoQuiz\WindowsDemoQuiz\obj\Debug\WindowsDemoQuiz.csprojResolveAssemblyReference.cache

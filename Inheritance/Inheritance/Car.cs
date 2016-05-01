@@ -47,5 +47,11 @@ namespace Inheritance
                 Console.WriteLine("--------------------------------------------------------------------------------");
             }
         }
+
+        public override void NoOfWheels()
+        {
+            wheels = 4;
+            Console.WriteLine("Car has got:-{0} wheels.", wheels);
+        }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\bin\Debug\WindowsFormDemo1.exe.config
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\bin\Debug\WindowsFormDemo1.exe
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\bin\Debug\WindowsFormDemo1.pdb
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.Form1.resources
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.exe
+C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.pdb

@@ -1,0 +1,8 @@
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\bin\Debug\CalculatorTestingUnitTests.dll
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\bin\Debug\CalculatorTestingUnitTests.pdb
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\bin\Debug\CalculatorTestingExample.exe
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\bin\Debug\CalculatorTestingExample.pdb
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\obj\Debug\CalculatorTestingUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\obj\Debug\CalculatorTestingUnitTests.dll
+C:\Users\student\Documents\GitHub\CSharp\CalculatorTestingExample\CalculatorTestingUnitTests\obj\Debug\CalculatorTestingUnitTests.pdb
