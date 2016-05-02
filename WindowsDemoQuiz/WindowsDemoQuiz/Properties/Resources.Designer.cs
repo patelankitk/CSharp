@@ -63,6 +63,16 @@ namespace WindowsDemoQuiz.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dog {
+            get {
+                object obj = ResourceManager.GetObject("dog", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image1 {
             get {
                 object obj = ResourceManager.GetObject("image1", resourceCulture);
@@ -83,9 +93,29 @@ namespace WindowsDemoQuiz.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image31 {
+            get {
+                object obj = ResourceManager.GetObject("image31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images2 {
             get {
                 object obj = ResourceManager.GetObject("images2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tiger1 {
+            get {
+                object obj = ResourceManager.GetObject("tiger1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,0 +1,9 @@
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\bin\Debug\WFBookList.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\bin\Debug\WFBookList.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\bin\Debug\WFBookList.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.csprojResolveAssemblyReference.cache
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.Form1.resources
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.Properties.Resources.resources
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.csproj.GenerateResource.Cache
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBookList\WFBookList\obj\Debug\WFBookList.pdb

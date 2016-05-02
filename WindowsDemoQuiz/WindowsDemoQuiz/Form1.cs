@@ -171,5 +171,16 @@ namespace WindowsDemoQuiz
         {
             this.Close();
         }
+        int i = 0;
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+            i++;
+            timer1.Start();
+            label1.Text = i.ToString();
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+        }
     }
 }

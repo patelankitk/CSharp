@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButtonQ1A1 = new System.Windows.Forms.RadioButton();
-            this.radioButtonQ1A2 = new System.Windows.Forms.RadioButton();
-            this.radioButtonQ1A3 = new System.Windows.Forms.RadioButton();
             this.labelQ1 = new System.Windows.Forms.Label();
+            this.radioButtonQ1A3 = new System.Windows.Forms.RadioButton();
+            this.radioButtonQ1A2 = new System.Windows.Forms.RadioButton();
+            this.radioButtonQ1A1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.labelQ2 = new System.Windows.Forms.Label();
             this.radioButtonQ2A3 = new System.Windows.Forms.RadioButton();
@@ -53,44 +52,18 @@
             this.labelA1 = new System.Windows.Forms.Label();
             this.labelA2 = new System.Windows.Forms.Label();
             this.labelA3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsDemoQuiz.Properties.Resources.images2;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 234);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(199, 165);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsDemoQuiz.Properties.Resources.image1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 60);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 168);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::WindowsDemoQuiz.Properties.Resources.image3;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 405);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(199, 142);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
             // 
             // groupBox1
             // 
@@ -99,51 +72,14 @@
             this.groupBox1.Controls.Add(this.radioButtonQ1A3);
             this.groupBox1.Controls.Add(this.radioButtonQ1A2);
             this.groupBox1.Controls.Add(this.radioButtonQ1A1);
-            this.groupBox1.Location = new System.Drawing.Point(217, 53);
+            this.groupBox1.Location = new System.Drawing.Point(217, 54);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(348, 175);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(348, 176);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // radioButtonQ1A1
-            // 
-            this.radioButtonQ1A1.AutoSize = true;
-            this.radioButtonQ1A1.CausesValidation = false;
-            this.radioButtonQ1A1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.radioButtonQ1A1.Location = new System.Drawing.Point(24, 46);
-            this.radioButtonQ1A1.Name = "radioButtonQ1A1";
-            this.radioButtonQ1A1.Size = new System.Drawing.Size(49, 17);
-            this.radioButtonQ1A1.TabIndex = 0;
-            this.radioButtonQ1A1.Text = "Tiger";
-            this.radioButtonQ1A1.UseVisualStyleBackColor = true;
-            this.radioButtonQ1A1.CheckedChanged += new System.EventHandler(this.radioButtonQ1A1_CheckedChanged);
-            // 
-            // radioButtonQ1A2
-            // 
-            this.radioButtonQ1A2.AutoSize = true;
-            this.radioButtonQ1A2.CausesValidation = false;
-            this.radioButtonQ1A2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.radioButtonQ1A2.Location = new System.Drawing.Point(24, 90);
-            this.radioButtonQ1A2.Name = "radioButtonQ1A2";
-            this.radioButtonQ1A2.Size = new System.Drawing.Size(64, 17);
-            this.radioButtonQ1A2.TabIndex = 1;
-            this.radioButtonQ1A2.Text = "Leopard";
-            this.radioButtonQ1A2.UseVisualStyleBackColor = true;
-            this.radioButtonQ1A2.CheckedChanged += new System.EventHandler(this.radioButtonQ1A2_CheckedChanged);
-            // 
-            // radioButtonQ1A3
-            // 
-            this.radioButtonQ1A3.AutoSize = true;
-            this.radioButtonQ1A3.CausesValidation = false;
-            this.radioButtonQ1A3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.radioButtonQ1A3.Location = new System.Drawing.Point(24, 129);
-            this.radioButtonQ1A3.Name = "radioButtonQ1A3";
-            this.radioButtonQ1A3.Size = new System.Drawing.Size(69, 17);
-            this.radioButtonQ1A3.TabIndex = 2;
-            this.radioButtonQ1A3.Text = "Giant Cat";
-            this.radioButtonQ1A3.UseVisualStyleBackColor = true;
-            this.radioButtonQ1A3.CheckedChanged += new System.EventHandler(this.radioButtonQ1A3_CheckedChanged);
             // 
             // labelQ1
             // 
@@ -151,9 +87,51 @@
             this.labelQ1.CausesValidation = false;
             this.labelQ1.Location = new System.Drawing.Point(24, 20);
             this.labelQ1.Name = "labelQ1";
-            this.labelQ1.Size = new System.Drawing.Size(113, 13);
+            this.labelQ1.Size = new System.Drawing.Size(10, 13);
             this.labelQ1.TabIndex = 3;
-            this.labelQ1.Text = "Which Animal is this..?";
+            this.labelQ1.Text = " ";
+            // 
+            // radioButtonQ1A3
+            // 
+            this.radioButtonQ1A3.AutoSize = true;
+            this.radioButtonQ1A3.CausesValidation = false;
+            this.radioButtonQ1A3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.radioButtonQ1A3.Location = new System.Drawing.Point(24, 128);
+            this.radioButtonQ1A3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButtonQ1A3.Name = "radioButtonQ1A3";
+            this.radioButtonQ1A3.Size = new System.Drawing.Size(69, 17);
+            this.radioButtonQ1A3.TabIndex = 2;
+            this.radioButtonQ1A3.Text = "Giant Cat";
+            this.radioButtonQ1A3.UseVisualStyleBackColor = true;
+            this.radioButtonQ1A3.CheckedChanged += new System.EventHandler(this.radioButtonQ1A3_CheckedChanged);
+            // 
+            // radioButtonQ1A2
+            // 
+            this.radioButtonQ1A2.AutoSize = true;
+            this.radioButtonQ1A2.CausesValidation = false;
+            this.radioButtonQ1A2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.radioButtonQ1A2.Location = new System.Drawing.Point(24, 89);
+            this.radioButtonQ1A2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButtonQ1A2.Name = "radioButtonQ1A2";
+            this.radioButtonQ1A2.Size = new System.Drawing.Size(64, 17);
+            this.radioButtonQ1A2.TabIndex = 1;
+            this.radioButtonQ1A2.Text = "Leopard";
+            this.radioButtonQ1A2.UseVisualStyleBackColor = true;
+            this.radioButtonQ1A2.CheckedChanged += new System.EventHandler(this.radioButtonQ1A2_CheckedChanged);
+            // 
+            // radioButtonQ1A1
+            // 
+            this.radioButtonQ1A1.AutoSize = true;
+            this.radioButtonQ1A1.CausesValidation = false;
+            this.radioButtonQ1A1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.radioButtonQ1A1.Location = new System.Drawing.Point(24, 46);
+            this.radioButtonQ1A1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButtonQ1A1.Name = "radioButtonQ1A1";
+            this.radioButtonQ1A1.Size = new System.Drawing.Size(49, 17);
+            this.radioButtonQ1A1.TabIndex = 0;
+            this.radioButtonQ1A1.Text = "Tiger";
+            this.radioButtonQ1A1.UseVisualStyleBackColor = true;
+            this.radioButtonQ1A1.CheckedChanged += new System.EventHandler(this.radioButtonQ1A1_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -163,8 +141,10 @@
             this.groupBox2.Controls.Add(this.radioButtonQ2A2);
             this.groupBox2.Controls.Add(this.radioButtonQ2A1);
             this.groupBox2.Location = new System.Drawing.Point(217, 234);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(348, 165);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(348, 164);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
@@ -184,7 +164,8 @@
             // 
             this.radioButtonQ2A3.AutoSize = true;
             this.radioButtonQ2A3.CausesValidation = false;
-            this.radioButtonQ2A3.Location = new System.Drawing.Point(24, 129);
+            this.radioButtonQ2A3.Location = new System.Drawing.Point(24, 128);
+            this.radioButtonQ2A3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ2A3.Name = "radioButtonQ2A3";
             this.radioButtonQ2A3.Size = new System.Drawing.Size(42, 17);
             this.radioButtonQ2A3.TabIndex = 2;
@@ -196,7 +177,8 @@
             // 
             this.radioButtonQ2A2.AutoSize = true;
             this.radioButtonQ2A2.CausesValidation = false;
-            this.radioButtonQ2A2.Location = new System.Drawing.Point(24, 90);
+            this.radioButtonQ2A2.Location = new System.Drawing.Point(24, 89);
+            this.radioButtonQ2A2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ2A2.Name = "radioButtonQ2A2";
             this.radioButtonQ2A2.Size = new System.Drawing.Size(45, 17);
             this.radioButtonQ2A2.TabIndex = 1;
@@ -209,6 +191,7 @@
             this.radioButtonQ2A1.AutoSize = true;
             this.radioButtonQ2A1.CausesValidation = false;
             this.radioButtonQ2A1.Location = new System.Drawing.Point(24, 46);
+            this.radioButtonQ2A1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ2A1.Name = "radioButtonQ2A1";
             this.radioButtonQ2A1.Size = new System.Drawing.Size(47, 17);
             this.radioButtonQ2A1.TabIndex = 0;
@@ -225,8 +208,10 @@
             this.groupBox3.Controls.Add(this.radioButtonQ3A1);
             this.groupBox3.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBox3.Location = new System.Drawing.Point(217, 405);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(348, 142);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Size = new System.Drawing.Size(348, 141);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             // 
@@ -247,6 +232,7 @@
             this.radioButtonQ3A3.CausesValidation = false;
             this.radioButtonQ3A3.Cursor = System.Windows.Forms.Cursors.Default;
             this.radioButtonQ3A3.Location = new System.Drawing.Point(24, 119);
+            this.radioButtonQ3A3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ3A3.Name = "radioButtonQ3A3";
             this.radioButtonQ3A3.Size = new System.Drawing.Size(64, 17);
             this.radioButtonQ3A3.TabIndex = 2;
@@ -260,7 +246,8 @@
             this.radioButtonQ3A2.AutoSize = true;
             this.radioButtonQ3A2.CausesValidation = false;
             this.radioButtonQ3A2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.radioButtonQ3A2.Location = new System.Drawing.Point(24, 83);
+            this.radioButtonQ3A2.Location = new System.Drawing.Point(24, 84);
+            this.radioButtonQ3A2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ3A2.Name = "radioButtonQ3A2";
             this.radioButtonQ3A2.Size = new System.Drawing.Size(42, 17);
             this.radioButtonQ3A2.TabIndex = 1;
@@ -275,6 +262,7 @@
             this.radioButtonQ3A1.CausesValidation = false;
             this.radioButtonQ3A1.Cursor = System.Windows.Forms.Cursors.Default;
             this.radioButtonQ3A1.Location = new System.Drawing.Point(24, 46);
+            this.radioButtonQ3A1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButtonQ3A1.Name = "radioButtonQ3A1";
             this.radioButtonQ3A1.Size = new System.Drawing.Size(57, 17);
             this.radioButtonQ3A1.TabIndex = 0;
@@ -308,11 +296,13 @@
             this.buttonStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStart.Location = new System.Drawing.Point(217, 572);
+            this.buttonStart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(122, 35);
+            this.buttonStart.Size = new System.Drawing.Size(122, 34);
             this.buttonStart.TabIndex = 9;
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = false;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
             // buttonStop
             // 
@@ -321,8 +311,9 @@
             this.buttonStop.Cursor = System.Windows.Forms.Cursors.Default;
             this.buttonStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStop.Location = new System.Drawing.Point(369, 572);
+            this.buttonStop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonStop.Name = "buttonStop";
-            this.buttonStop.Size = new System.Drawing.Size(125, 35);
+            this.buttonStop.Size = new System.Drawing.Size(125, 34);
             this.buttonStop.TabIndex = 10;
             this.buttonStop.Text = "Stop";
             this.buttonStop.UseVisualStyleBackColor = false;
@@ -331,17 +322,17 @@
             // labelA1
             // 
             this.labelA1.AutoSize = true;
-            this.labelA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelA1.Font = new System.Drawing.Font("Wingdings 3", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.labelA1.Location = new System.Drawing.Point(621, 115);
             this.labelA1.Name = "labelA1";
-            this.labelA1.Size = new System.Drawing.Size(0, 25);
+            this.labelA1.Size = new System.Drawing.Size(0, 24);
             this.labelA1.TabIndex = 11;
             // 
             // labelA2
             // 
             this.labelA2.AutoSize = true;
             this.labelA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelA2.Location = new System.Drawing.Point(621, 303);
+            this.labelA2.Location = new System.Drawing.Point(621, 304);
             this.labelA2.Name = "labelA2";
             this.labelA2.Size = new System.Drawing.Size(0, 25);
             this.labelA2.TabIndex = 12;
@@ -350,17 +341,68 @@
             // 
             this.labelA3.AutoSize = true;
             this.labelA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelA3.Location = new System.Drawing.Point(621, 477);
+            this.labelA3.Location = new System.Drawing.Point(621, 476);
             this.labelA3.Name = "labelA3";
             this.labelA3.Size = new System.Drawing.Size(0, 25);
             this.labelA3.TabIndex = 13;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(12, 405);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(199, 141);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 234);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(199, 164);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 59);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(199, 167);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(621, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 20);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Timer";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(701, 625);
+            this.ClientSize = new System.Drawing.Size(748, 608);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelA3);
             this.Controls.Add(this.labelA2);
             this.Controls.Add(this.labelA1);
@@ -375,17 +417,19 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Quiz";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,6 +461,8 @@
         private System.Windows.Forms.Label labelA1;
         private System.Windows.Forms.Label labelA2;
         private System.Windows.Forms.Label labelA3;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

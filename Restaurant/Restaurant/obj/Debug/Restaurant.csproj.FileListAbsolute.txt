@@ -4,3 +4,6 @@ C:\Users\student\Documents\GitHub\CSharp\Restaurant\Restaurant\bin\Debug\Restaur
 C:\Users\student\Documents\GitHub\CSharp\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
 C:\Users\student\Documents\GitHub\CSharp\Restaurant\Restaurant\obj\Debug\Restaurant.exe
 C:\Users\student\Documents\GitHub\CSharp\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\Restaurant\Restaurant\obj\Debug\Restaurant.pdb

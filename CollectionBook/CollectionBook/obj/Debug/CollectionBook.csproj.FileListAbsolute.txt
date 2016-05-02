@@ -1,0 +1,11 @@
+c:\users\ankit\documents\visual studio 2015\Projects\CollectionBook\CollectionBook\bin\Debug\CollectionBook.exe.config
+c:\users\ankit\documents\visual studio 2015\Projects\CollectionBook\CollectionBook\bin\Debug\CollectionBook.exe
+c:\users\ankit\documents\visual studio 2015\Projects\CollectionBook\CollectionBook\bin\Debug\CollectionBook.pdb
+c:\users\ankit\documents\visual studio 2015\Projects\CollectionBook\CollectionBook\obj\Debug\CollectionBook.exe
+c:\users\ankit\documents\visual studio 2015\Projects\CollectionBook\CollectionBook\obj\Debug\CollectionBook.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\bin\Debug\CollectionBook.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\obj\Debug\CollectionBook.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\obj\Debug\CollectionBook.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\obj\Debug\CollectionBook.csprojResolveAssemblyReference.cache
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\bin\Debug\CollectionBook.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\CollectionBook\CollectionBook\bin\Debug\CollectionBook.pdb
