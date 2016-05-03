@@ -1,0 +1,10 @@
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\bin\Debug\WFBooksLibrary.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\bin\Debug\WFBooksLibrary.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\bin\Debug\WFBooksLibrary.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.Form1.resources
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.Form2.resources
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.Properties.Resources.resources
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.csproj.GenerateResource.Cache
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WFBooksLibrary\WFBooksLibrary\obj\Debug\WFBooksLibrary.pdb

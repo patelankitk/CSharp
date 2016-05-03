@@ -28,10 +28,39 @@ namespace CollectionBook
             book2.price = 20;
             BookList.Add(book2);
 
-            foreach (books b in BookList)
+            string UserChoice;
+            do
             {
-                Console.WriteLine("{0}{1}{2}{3}",b.title,b.author,b.ISBN,b.price);
+            Console.WriteLine("Please Enter 1.List(L) 2.Add(A) 3.Remove(R) 4.Quit(Q)");
+            UserChoice = Console.ReadLine().ToUpper();
+
+            switch (UserChoice)
+            {
+                case "L":
+                        foreach (books b in BookList)
+                        {
+                            Console.WriteLine("Book List is Title -{0},Author -{1},ISBN -{2},Price -{3}.", b.title, b.author, b.ISBN, b.price);
+                        }
+                    
+                    break;
+
+                case "A":
+
+                    break;
+
+                case "R":
+
+                    Console.WriteLine("Please Enter the Book you wish to remove.");
+                    string bookRemove =Console.ReadLine();
+                    //BookList.Contains()
+                    break;
+
+                default:
+                    break;
             }
+            } while (UserChoice!="Q");
+
+
         }
     }
 }
