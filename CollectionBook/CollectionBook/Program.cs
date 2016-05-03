@@ -15,49 +15,66 @@ namespace CollectionBook
             List<books> BookList = new List<books>();
 
             books book1 = new books();
-            book1.title = "a";
-            book1.author = "ankit";
+            book1.title = "C#";
+            book1.author = "A";
             book1.ISBN = 12345;
             book1.price = 12.35;
             BookList.Add(book1);
 
             books book2 = new books();
-            book2.title = "b";
-            book2.author = "patel";
-            book2.ISBN = 1234567;
-            book2.price = 20;
+            book2.title = "Java";
+            book2.author = "B";
+            book2.ISBN = 123456;
+            book2.price = 25;
             BookList.Add(book2);
+
+            books book3 = new books();
+            book3.title = "Java Script";  
+            book3.author = "C";
+            book3.ISBN = 1234567;
+            book3.price = 30;
+            BookList.Add(book3);
 
             string UserChoice;
             do
             {
-            Console.WriteLine("Please Enter 1.List(L) 2.Add(A) 3.Remove(R) 4.Quit(Q)");
-            UserChoice = Console.ReadLine().ToUpper();
+                Console.WriteLine("\nPlease Enter 1.List(L) 2.Add(A) 3.Remove(R) 4.Quit(Q)");
+                UserChoice = Console.ReadLine().ToUpper();
 
-            switch (UserChoice)
-            {
-                case "L":
+                switch (UserChoice)
+                {
+                    case "L":
+
                         foreach (books b in BookList)
                         {
-                            Console.WriteLine("Book List is Title -{0},Author -{1},ISBN -{2},Price -{3}.", b.title, b.author, b.ISBN, b.price);
+                            Console.WriteLine("\nBook List is as follows :\nTitle : {0} \nAuthor :{1} \nISBN :{2} \nPrice :{3}", b.title, b.author, b.ISBN, b.price);
                         }
-                    
-                    break;
+                        break;
 
-                case "A":
+                    case "A":
 
-                    break;
+                        break;
 
-                case "R":
+                    case "R":
 
-                    Console.WriteLine("Please Enter the Book you wish to remove.");
-                    string bookRemove =Console.ReadLine();
-                    //BookList.Contains()
-                    break;
+                        Console.WriteLine("Please Enter the Book title you wish to remove.");
+                        string bookRemove =Console.ReadLine();
 
-                default:
-                    break;
-            }
+                        for (int i = 0; i < BookList.Count; i++)
+                        {
+                            if (BookList[i].title.ToLower() == bookRemove.ToLower() )
+                            {
+                                BookList.RemoveAt(i);
+                                Console.WriteLine("\nYour book with title {0} has been removed.", bookRemove);
+                            }                       
+                        }
+
+                        
+                        break;
+
+                    default:
+                        break;
+                }
             } while (UserChoice!="Q");
 
 
