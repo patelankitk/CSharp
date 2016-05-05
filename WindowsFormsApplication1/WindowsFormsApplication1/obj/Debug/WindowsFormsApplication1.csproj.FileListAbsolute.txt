@@ -7,3 +7,7 @@ C:\Users\student\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsAp
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

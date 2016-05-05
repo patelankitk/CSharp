@@ -7,3 +7,6 @@ C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\D
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.exe
 C:\Users\student\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.pdb
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\bin\Debug\WindowsFormDemo1.exe.config
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.exe
+C:\Users\Ankit\Documents\GitHub\CSharp\WindowsFormDemo1\WindowsFormDemo1\obj\Debug\WindowsFormDemo1.pdb

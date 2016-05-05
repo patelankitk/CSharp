@@ -8,17 +8,35 @@ namespace CollectionBook
 {
     class books
     {
-        public string title;
-        public string author;
-        public int ISBN;
-        public double price;
+        public static string title;
+        public static string author;
+        public static int ISBN;
+        public static double price;
 
-        public void AddBooks(string title, string author, int ISBN, double price)
+        public books()
         {
-            this.title = title;
-            this.author = author;
-            this.ISBN = ISBN;
-            this.price = price;
+
+        }
+        
+
+        public void AddBooks(string title1, string author1, int ISBN1, double price1)
+        {
+            title = title1;
+            author = author1;
+            ISBN = ISBN1;
+            price = price1;
+        }
+
+        public static void AddNewBooks (string title1, string author1, int ISBN1, double price1)
+        {
+            title = title1;
+            author = author1;
+            ISBN = ISBN1;
+            price = price1;
+
+           // List<books> BookList = new List<books>();
+            
+
         }
 
 
