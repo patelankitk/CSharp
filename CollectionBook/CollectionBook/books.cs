@@ -33,7 +33,7 @@ namespace CollectionBook
         {
             foreach (books b in b1)
             {
-                Console.WriteLine("\nBook List is as follows :\nTitle : {0} \nAuthor :{1} \nISBN :{2} \nPrice :{3}", b.title, b.author, b.ISBN, b.price);
+                Console.WriteLine("\n\tBook List is as follows :\n\tTitle    : {0} \n\tAuthor   : {1} \n\tISBN     : {2} \n\tPrice    : {3}", b.title, b.author, b.ISBN, b.price);
             }
         } 
 
@@ -51,7 +51,7 @@ namespace CollectionBook
        
         public static void RemoveBooks(List<books> b1)
         {
-            Console.WriteLine("Please Enter the Book title you wish to remove.");
+            Console.Write("\n\tPlease Enter the Book title you wish to remove :  ");
             string bookRemove = Console.ReadLine();
 
             for (int i = 0; i < b1.Count; i++)
@@ -59,7 +59,7 @@ namespace CollectionBook
                 if (b1[i].title.ToLower() == bookRemove.ToLower())
                 {
                     b1.RemoveAt(i);
-                    Console.WriteLine("\nYour book with title {0} has been removed.", bookRemove);
+                    Console.WriteLine("\n\tYour book with title {0} has been removed.", bookRemove);
                 }
             }
         }
