@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// PROGRAM FOR BOOK COLLECTION //
+
 namespace CollectionBook
 {
     class Program
@@ -12,35 +14,30 @@ namespace CollectionBook
         {
             Console.WriteLine("\n\n\n\t\t\tBooks Collection.\n");
 
-
+            // Creating a List for user to store books in the List //
             List<books> BookList = new List<books>();
 
-            //books book1 = new books("C#","A",12345,12.35);
-            //books book2 = new books("Java", "B", 123456, 25);
-            //books book3 = new books("Java Script", "C", 1234567, 30);
-
-            //BookList.Add(book1);         
-            //BookList.Add(book2);
-            //BookList.Add(book3);
-
+            //Creating a Variable to store user option to navigate through our Book Collection //
             String UserChoice;
+
+            // Creating a Do While Loop for user to iterate through the option till they decide to exit the program //
             do
             {
-                Console.WriteLine("\n\tYou have got following option for books.\n\n\tList(L) \t2.Add(A) \t3.Remove(R) \t4.Quit(Q)\n");
+                Console.WriteLine("--------------------------------------------------------------------------------");
+                Console.WriteLine("\n\tYou have got following option for books.\n\n\tList(L) \t2.Add(A) \t3.Remove(R) \t4.Quit(Q)\n"); //Options for User //
                 Console.Write("\tYour Option : ");
-                UserChoice = Console.ReadLine().ToUpper();
+                UserChoice = Console.ReadLine().ToUpper(); //Getting the user choice and converting it to Uppercase //
                 Console.WriteLine("\n");
 
-                switch (UserChoice)
+                switch (UserChoice) // Start of a Switch statement to navigate through different option as per user requirement //
                 {
                     case "L":
-                        books.ListBook(BookList);                        
+                        books.ListBook(BookList);     // Calling Method ListBook from Book Class //                    
                         break;
 
-                    case "A":
-
-                        Console.Write("\tPlease enter the Name of new book:  ");
-                        string BookName = Console.ReadLine();
+                    case "A": // To Add Book to our List //
+                        Console.Write("\tPlease enter the Name of new book:  "); // Asking user for book details//
+                        string BookName = Console.ReadLine(); // Storing result in variables //
 
                         Console.Write("\n\tPlease enter the Author name of the new book:  ");
                         string BookAuthor = Console.ReadLine();
@@ -51,19 +48,19 @@ namespace CollectionBook
                         Console.Write("\n\tPlease enter the Price of new book:  ");
                         double BookPrice = double.Parse(Console.ReadLine());
 
-                        books.AddBook(BookName, BookAuthor, BookISBN, BookPrice, BookList);
+                        books.AddBook(BookName, BookAuthor, BookISBN, BookPrice, BookList); // Calling AddBook Method from Book Class to add books to our List //
                       
                         break;
 
                     case "R":
-                        books.RemoveBooks(BookList);
+                        books.RemoveBooks(BookList); // Calling RemoveBooks Method from Books Class to remove the book //
                         break;
 
                     default:
                         break;
 
                 }
-            } while (UserChoice!="Q");
+            } while (UserChoice!="Q"); // End of Do While Loop when user input Q to quit//
 
 
         }
